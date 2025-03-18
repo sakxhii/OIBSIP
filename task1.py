@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -62,7 +61,7 @@ plt.show()
 plt.figure(figsize=(8, 6))
 sns.scatterplot(data=iris_data, x='SepalWidthCm', y='PetalWidthCm', hue='Species', palette='Set2')
 plt.title('Sepal Width vs Petal Width')
-=======
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -126,5 +125,4 @@ plt.show()
 plt.figure(figsize=(8, 6))
 sns.scatterplot(data=iris_data, x='SepalWidthCm', y='PetalWidthCm', hue='Species', palette='Set2')
 plt.title('Sepal Width vs Petal Width')
->>>>>>> 54dd8901e61f0df9711c22cb12dc11d9b3fb8a0d
 plt.show()
